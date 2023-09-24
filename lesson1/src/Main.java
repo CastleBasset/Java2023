@@ -3,14 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        String WelcomStr;
-        WelcomStr="Hello world";
-        System.out.println(WelcomStr);
+        String welcomeStr;
+        welcomeStr="Hello world";
+        System.out.println(welcomeStr);
 
-        String Name = "Alexandr";
-        String Surname = "Kapralov";
+        String name = "Alexandr";
+        String surname = "Kapralov";
         String space = " ";
-        System.out.println(Name + space + Surname);
+        System.out.println(name + space + surname);
 
         int a = 2;
         int b = 3;
