@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
 //        String WelcomStr;
 //        WelcomStr="Hello world";
 //        System.out.println(WelcomStr);
@@ -26,5 +27,6 @@ public class Main {
         int c = input.nextInt();
         int res =  a * c + b;
         System.out.println("я ввёл: " + res);
+
     }
 }
