@@ -22,11 +22,25 @@ public class Main {
 //        System.out.println("a * r + b = " + result);
 
         Scanner input = new Scanner(System.in);
+//       int a = input.nextInt();
+//       int b = input.nextInt();
+//       int c = input.nextInt();
+//       int res =  a * c + b;
+//       System.out.println("я ввёл: " + res);
+//
+//        String name = input.nextLine();
+  //      String surname = input.nextLine();
+    //    String fullName = name + " " + surname;
+        //  System.out.println("this program did:" + fullName);
         int a = input.nextInt();
-        int b = input.nextInt();
-        int c = input.nextInt();
-        int res =  a * c + b;
-        System.out.println("я ввёл: " + res);
-
+  //      int b = input.nextInt() ;
+        if ( a % 2 == 0 )
+        {
+            System.out.println( "Yes" );
+        }
+        else
+        {
+            System.out.println( "No" );
+        }
     }
 }
