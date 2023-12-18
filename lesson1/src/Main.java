@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // test commit
         Scanner input = new Scanner(System.in);
         System.out.print("Введите начальное число: ");
         int start = input.nextInt();
